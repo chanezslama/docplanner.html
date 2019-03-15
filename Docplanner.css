@@ -1,0 +1,195 @@
+body{
+    font-family: sans-serif;
+    color: #808080;
+    max-width: 85%;
+    margin: auto;
+
+}
+a{
+    color: gray;
+    text-decoration: none;
+}
+.decplanner-header{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    padding: 10px;
+    position: fixed;
+    width: 85%;
+}
+.link-decplanner1{
+    color:#00ccb1;
+}
+.presentation-decplanner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+.presentation-decplanner-title{
+    color: #00ccb1;
+    font-size: 30px;
+}
+.presentation-decplanner-text{
+    display :flex;
+    padding: 30px;
+}
+.suggestion{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    height: 500px;
+}
+.suggestion-patients{
+    background-color: #00ccb1;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+}
+.suggestion-doctors{
+    background-color: #3d83df;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+}
+.suggestion-image-patients{
+    position: absolute;
+    right:0 ;
+    bottom: 40px;
+}
+.suggestion-image-doctors{
+    position: absolute;
+    right:0 ;
+    bottom: 40px;
+
+}
+.suggestion-text{
+    color: white;
+    font-size: 30px;
+}
+.suggestion-for{
+    color :white;  
+}
+.suggestion-patients-button{
+    border-radius: 10px;
+    padding: 20px;
+}
+.choice{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+.choice-title{
+    color: #00b39b;
+    font-size: 20px;
+}
+ul{
+    list-style-type: none;
+}
+.choice-select{
+    display: flex;
+    flex-wrap: wrap;
+}
+.information{
+    display: flex;
+    background-color: #d8f6f5;
+    padding: 20px;
+    position: relative;
+}
+.information-text-title{
+    color: #00b39b;
+    font-size: 20px;
+}
+.information-logo{
+    position: absolute;
+    bottom: 0;
+}
+.information-cadre1-1{
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 10px;
+    text-align: center;
+    width: 150px;
+    height: 230px;
+}
+.information-cadre1-2{
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 10px;  
+    text-align: center;
+    width: 150px;
+    height: 230px;
+
+}
+.information-cadre2-1{
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 10px;
+    text-align: center;
+    width: 150px;
+    height: 230px;
+
+}
+.information-cadre2-2{
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 10px;
+    text-align: center;
+    width: 150px;
+    height: 230px;
+
+}    
+.information-cadre1{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0 0 0;
+}
+.information-cadre2{
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 0 0;
+}
+.proposition{
+    text-align: center;
+    
+}
+.proposition-introduction-title{
+    color: #00b39b;
+    font-size: 30px;
+
+}
+.places-to-visit{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 60px;
+}
+.places-to-visit-button{
+    background-color: #3d83df;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+}
+
+.footer-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    border-top: 1px solid gray;
+}
+.Docplanner-leader-link{
+    color: #3d83df;
+}
+
+
+
+
